@@ -4,4 +4,4 @@ $sSubject = $_POST['name']; //bu index sayfasında söylediğim name parametresi
 $sBody = $_POST['email']; // burasıda aynı mantık.
 
 echo $sSubject.'<br>';
-echo $sBody;
+echo $sBody. '<br>';
